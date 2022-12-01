@@ -46,6 +46,7 @@ export default function App() {
     return (
         <main>
         {
+            //if notes Array length > 0
             notes.length > 0 
             ?
             <Split 
@@ -69,6 +70,7 @@ export default function App() {
                 }
             </Split>
             :
+            //else (no notes)
             <div className="no-notes">
                 <h1>You have no notes</h1>
                 <button 

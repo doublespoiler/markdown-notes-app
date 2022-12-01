@@ -1,5 +1,11 @@
 # coea14f76b39cf1bfb7c86de4
 
+TODO:
+Sync changes to notes with localstorage
+Use note summary (first line) as title
+When a note is modified, it is bumped to the top of the list
+Delete notes
+
 Quick start:
 
 ```

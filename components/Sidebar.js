@@ -1,6 +1,7 @@
 import React from "react"
 
 export default function Sidebar(props) {
+    //takes the notes array and maps them to individual divs
     const noteElements = props.notes.map((note, index) => (
         <div key={note.id}>
             <div
